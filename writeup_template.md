@@ -32,19 +32,11 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
 
-![alt text][image1]
+% ![alt text][image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when we try this algorithm or approach on curved roads or hilly roads, thsi would fail badly, due to the thresholds and settings and/or the algorithm in general. 
 
-Another shortcoming could be ...
-
-
-### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
