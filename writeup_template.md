@@ -25,15 +25,11 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 5 steps. 
 
-First, I converted the images to grayscale, then I smoothened the image used gaussian blur function provided in the helper function. Next, I created a edge imageusing the canny edge detector to locate all the edges. Then I selected the region of interest so that I can focus on the important lane lines and not the other parts. This helped in eliminating the stray lines . Next is the created a hough image to fing the intersections at each point and hence find the lane lines..... 
+First, I converted the images to grayscale, then I smoothened the image used gaussian blur function provided in the helper function. Next, I created a edge imageusing the canny edge detector to locate all the edges. Then I selected the region of interest so that I can focus on the important lane lines and not the other parts. This helped in eliminating the stray lines . Next is the created a hough image to find the intersections at each point and hence find the lane lines.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by calculating the slope between two points of x1,y1 nad x2,y2. Then I classify thenminto positive and negative slopes and keep adding them to an array and find the averages of each quantities to draw a line between the two points of min and max.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-
-% ![alt text][image1]
-
+All the images and videos can be found in the ipyhton notebook in this git repository.
 
 ### 2. Identify potential shortcomings with your current pipeline
 
